@@ -1,0 +1,173 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-bottom: 30px;
+}
+
+.ifotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ifotos img {
+  width: 400px;
+  height: 500px;
+  margin: 15px;
+}
+.ifotos p {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+footer {
+  position: relative;
+  bottom: -15px;
+}
+
+footer img {
+  width: 50px;
+  border-radius: 50px;
+}
+
+.fr {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.derechos p {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+}
+
+.clugar {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.main-niños {
+  display: flex;
+}
+
+.menu {
+  display: inline-block;
+  padding: 10px;
+  margin: 100px;
+}
+.menu label {
+  font-size: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos img {
+  width: 250px;
+  height: 250px;
+  margin: 15px;
+}
+.productos p {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+.productos .btn {
+  display: flex;
+  justify-content: center;
+}
+.productos button {
+  border: 0;
+  background-image: linear-gradient(150deg, red, black, white);
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.productos button span {
+  background-color: black;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.productos button:hover span {
+  background: none;
+}
+.productos button:active {
+  transform: scale(0.9);
+}
+
+.img-color {
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 650px) {
+  .menu {
+    display: none;
+  }
+  .productos {
+    display: flex;
+    justify-content: center;
+  }
+}
+.sucursales img {
+  width: 400px;
+  height: 400px;
+}
+
+.sucursal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sucursal .txt {
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+.sucursal .img {
+  display: flex;
+  margin: 50px;
+  background-color: #f0f0f0;
+}
+.sucursal .map {
+  margin: 50px;
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 650px) {
+  .sucursales img {
+    width: 200px;
+    height: 200px;
+  }
+  .sucursales h1 {
+    font-size: 15px;
+  }
+  .sucursales p {
+    font-size: 10px;
+  }
+  .map {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

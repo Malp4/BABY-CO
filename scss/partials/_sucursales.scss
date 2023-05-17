@@ -1,0 +1,46 @@
+.sucursales{
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+.sucursal{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .txt{
+        margin: 20px;
+        background-color: #f0f0f0;
+        
+    }
+    .img{
+        display: flex;
+        margin: 50px;
+        background-color: #f0f0f0;
+        
+    }
+    .map{
+        margin:50px;
+        background-color: #f0f0f0;
+        
+    }
+}
+
+@media (max-width:650px){
+    .sucursales{
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        h1{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+
+    .map{
+        display: none;
+    }
+}
