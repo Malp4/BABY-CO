@@ -3,7 +3,7 @@
     img{
         width: 400px;
         height: 500px;
-        margin: 15px;
+        margin: 12px;
     }
     p{
         display: flex;
@@ -15,4 +15,9 @@
     flex-wrap: wrap;
     justify-content: center;
     
+}
+.cfotos{
+    background-color: #f0f0f0;
+    margin: 8px;
+    border: 1px solid black;
 }
