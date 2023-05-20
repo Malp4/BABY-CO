@@ -32,6 +32,16 @@ main {
   border: 1px solid black;
 }
 
+@media (max-width: 450px) {
+  .ifotos img {
+    width: 300px;
+    height: 400px;
+    margin: 6px;
+  }
+  .ifotos p {
+    font-size: 25px;
+  }
+}
 footer img {
   width: 50px;
   border-radius: 50px;
