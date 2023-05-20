@@ -50,6 +50,13 @@ footer img {
   gap: 10px;
 }
 
+.derechos {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
 .clugar {
   display: flex;
   justify-content: center;
