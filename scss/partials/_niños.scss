@@ -1,5 +1,6 @@
 .main-niños{
     display: flex;
+
     
 }
 .menu{
@@ -11,6 +12,7 @@
     display: inline-block;
     margin-left: 50px;
     padding: 10px;
+    border-radius: 3px;
     
 }
 .productos{
@@ -62,6 +64,8 @@
     margin: 8px;
     background-color: #f0f0f0;
     border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
 }
 
 @media (max-width:650px){

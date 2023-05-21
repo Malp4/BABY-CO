@@ -30,6 +30,8 @@ main {
   background-color: #f0f0f0;
   margin: 8px;
   border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 450px) {
@@ -84,6 +86,7 @@ footer img {
   display: inline-block;
   margin-left: 50px;
   padding: 10px;
+  border-radius: 3px;
 }
 .menu label {
   font-size: 20px;
@@ -136,6 +139,8 @@ footer img {
   margin: 8px;
   background-color: #f0f0f0;
   border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 650px) {
@@ -165,10 +170,11 @@ footer img {
   margin: 50px;
   background-color: #f0f0f0;
   border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.3);
 }
 .sucursal .map {
   margin: 50px;
-  border: 1px solid black;
 }
 
 @media (max-width: 650px) {
